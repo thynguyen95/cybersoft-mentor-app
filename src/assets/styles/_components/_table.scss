@@ -1,0 +1,16 @@
+.c-table1 {
+    background: #E7EBF0;
+    border-radius: 10px;
+    padding: 20px;
+    table {
+        background: #fff;
+        th,
+        td {
+            padding: 10px;
+            font-size: 1.5rem;
+            line-height: 1.5;
+            color: #000;
+            border: 1px solid gray;
+        }
+    }
+}

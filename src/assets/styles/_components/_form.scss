@@ -1,0 +1,97 @@
+.c-form {
+    $root: &;
+    &__group {
+        position: relative;
+        &:not(:last-child) {
+            margin: 0 0 20px;
+        }
+    }
+    &__name {
+        display: block;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-weight: bold;
+        margin: 0 0 5px;
+    }
+    input {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid gray;
+        border-radius: 4px;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        appearance: none;
+        padding: 5px 10px;
+    }
+    select {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        border: 2px solid gray;
+        border-radius: 4px;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        padding: 5px 10px;
+    }
+    &__btn {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        background: #0d6efd;
+        border: 1px solid #0d6efd;
+        border-radius: 4px;
+        font-size: 1.6rem;
+        line-height: 1;
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        &.disable {
+            opacity: 0.7;
+            pointer-events: none;
+        }
+        @include hover {
+            opacity: 1;
+            background: #fff;
+            color: #0d6efd;
+        }
+    }
+    .error {
+        display: block;
+        padding: 10px;
+        border-radius: 5px;
+        color: #842029;
+        background-color: #f8d7da;
+        border-color: #f5c2c7;
+        font-size: 1.5rem;
+        margin: 10px 0;
+    }
+    &.login {
+        #{$root}__box {
+            position: relative;
+        }
+        #{$root}__icon {
+            background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+            width: 40px;
+            height: calc(100% - 4px);
+            padding: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 2px;
+            left: 2px;
+            box-sizing: border-box;
+            img {
+                width: 100%;
+            }
+        }
+        input {
+            padding: 10px 10px 10px 50px;
+        }
+        #{$root}__btn {
+            width: 100%;
+        }
+    }
+}

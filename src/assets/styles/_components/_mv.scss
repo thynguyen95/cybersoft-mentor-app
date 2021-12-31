@@ -1,0 +1,21 @@
+/*----------------------------------------------------------
+mv
+------------------------------------------------------------*/
+
+.c-mv {
+    background: linear-gradient(to right, #227df9, #7462f9, #df3ef8);
+    padding: 50px 2%;
+    @include sp {
+        padding: 40px 20px;
+    }
+    &__ttl {
+        text-align: center;
+        font-size: 3rem;
+        line-height: 1.5;
+        color: #fff;
+        font-weight: bold;
+        @include sp {
+            font-size: 2rem;
+        }
+    }
+}

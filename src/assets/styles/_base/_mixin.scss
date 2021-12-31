@@ -1,0 +1,28 @@
+//============================================
+// clearfix
+//============================================
+@mixin clear {
+    *zoom: 1;
+    &:after {
+        display: block;
+        content: '';
+        clear: both;
+    }
+}
+
+//============================================
+// breakpoint
+//============================================
+@mixin sp {
+    @media screen and (max-width: #{$breakpoint1}) {
+        @content;
+    }
+}
+
+@mixin hover {
+    @media screen and (min-width: #{$breakpoint1 + 1}) {
+        &:hover {
+            @content;
+        }
+    }
+}
