@@ -16,4 +16,7 @@ title
     line-height: 1.5;
     font-weight: bold;
     color: #fff;
+    @include sp {
+        font-size: 1.8rem;
+    }
 }
