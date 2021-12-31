@@ -18,12 +18,7 @@ export const login = createAsyncThunk(
             );
             return result.data;
         } catch (error) {
-            const message =
-                (error.response &&
-                    error.response.data &&
-                    error.response.data.message) ||
-                error.message ||
-                error.toString();
+            const message = error.response.data.content || error.toString();
             thunkAPI.dispatch(setMessageErr(message));
             return thunkAPI.rejectWithValue();
         }
@@ -38,12 +33,7 @@ export const addUser = createAsyncThunk(
 
             return result.data;
         } catch (error) {
-            const message =
-                (error.response &&
-                    error.response.data &&
-                    error.response.data.message) ||
-                error.message ||
-                error.toString();
+            const message = error.response.data.content || error.toString();
             toast.error(message);
 
             return thunkAPI.rejectWithValue();
