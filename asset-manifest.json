@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b92fd87.css",
-    "main.js": "/static/js/main.82eb4949.js",
-    "static/js/787.a86134de.chunk.js": "/static/js/787.a86134de.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.fb76e8cfe96adaf385f0e74344fa9a49.svg",
-    "static/media/icon-logout.svg": "/static/media/icon-logout.7312e15bbaf2a1af7d5dca5bb6b0ece0.svg",
-    "index.html": "/index.html",
-    "static/media/icon-plus.svg": "/static/media/icon-plus.4f33594cb5ded5f219af.svg",
-    "static/media/icon-plus-white.svg": "/static/media/icon-plus-white.a3337279bf4cb7e38e22.svg",
-    "static/media/icon-lock.svg": "/static/media/icon-lock.586f2d647f1cac26dd0bcb5080f30b51.svg",
-    "static/media/icon-user.svg": "/static/media/icon-user.4b338feeae5880d3dc25629f6b9c0d77.svg",
-    "main.6b92fd87.css.map": "/static/css/main.6b92fd87.css.map",
-    "main.82eb4949.js.map": "/static/js/main.82eb4949.js.map",
-    "787.a86134de.chunk.js.map": "/static/js/787.a86134de.chunk.js.map"
+    "main.css": "/cybersoft-mentor-app/static/css/main.e20ff964.css",
+    "main.js": "/cybersoft-mentor-app/static/js/main.f5f4603a.js",
+    "static/js/787.a86134de.chunk.js": "/cybersoft-mentor-app/static/js/787.a86134de.chunk.js",
+    "static/media/logo.svg": "/cybersoft-mentor-app/static/media/logo.fb76e8cfe96adaf385f0e74344fa9a49.svg",
+    "index.html": "/cybersoft-mentor-app/index.html",
+    "static/media/icon-logout.svg": "/cybersoft-mentor-app/static/media/icon-logout.7312e15bbaf2a1af7d5dca5bb6b0ece0.svg",
+    "static/media/icon-plus.svg": "/cybersoft-mentor-app/static/media/icon-plus.4f33594cb5ded5f219af.svg",
+    "static/media/icon-plus-white.svg": "/cybersoft-mentor-app/static/media/icon-plus-white.a3337279bf4cb7e38e22.svg",
+    "static/media/icon-lock.svg": "/cybersoft-mentor-app/static/media/icon-lock.586f2d647f1cac26dd0bcb5080f30b51.svg",
+    "static/media/icon-user.svg": "/cybersoft-mentor-app/static/media/icon-user.4b338feeae5880d3dc25629f6b9c0d77.svg",
+    "main.e20ff964.css.map": "/cybersoft-mentor-app/static/css/main.e20ff964.css.map",
+    "main.f5f4603a.js.map": "/cybersoft-mentor-app/static/js/main.f5f4603a.js.map",
+    "787.a86134de.chunk.js.map": "/cybersoft-mentor-app/static/js/787.a86134de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b92fd87.css",
-    "static/js/main.82eb4949.js"
+    "static/css/main.e20ff964.css",
+    "static/js/main.f5f4603a.js"
   ]
 }
